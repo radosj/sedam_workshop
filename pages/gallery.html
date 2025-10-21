@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Gallery - SEDAM Workshop</title>
+    <meta name="description" content="Explore our complete collection of designer furniture pieces, each crafted with precision and artistic vision.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
+    <!-- Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="main-nav">
+        <div class="nav__container">
+            <div class="nav__logo">
+                <a href="../index.html">SEDAM Workshop</a>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="gallery.html" class="nav__link active">Gallery</a></li>
+                <li><a href="services.html" class="nav__link">Services</a></li>
+                <li><a href="about.html" class="nav__link">About us</a></li>
+                <li><a href="../index.html#contact_us" class="nav__link">Contact us</a></li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="header-content animate-fade">
+                    <h1 class="page-title animate-words">
+                        <span class="word">Our</span>
+                        <span class="word">Gallery</span>
+                    </h1>
+                    <p class="page-subtitle">Discover our complete collection of designer furniture pieces, each crafted with precision and artistic vision.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collection -->
+        <section class="featured-collection">
+            <div class="container">
+                <div class="section-header animate-fade">
+                    <h2 class="section-title">Featured Collection</h2>
+                    <p class="section-description">Our most popular and acclaimed pieces</p>
+                </div>
+                
+                <div class="featured-grid">
+                    <div class="featured-item large animate-scale">
+                        <div class="item-image">
+                            <img src="../assets/images/product-1.jpg" alt="Wall Console Judd">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Wall Console Judd</h3>
+                            <p class="item-description">A minimalist wall-mounted console that combines functionality with elegant design.</p>
+                            <span class="item-category">Furniture</span>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-item animate-scale">
+                        <div class="item-image">
+                            <img src="../assets/images/product-2.jpg" alt="Ador Candlestick">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Ador Candlestick</h3>
+                            <p class="item-description">Sculptural candlestick that serves as both lighting and art piece.</p>
+                            <span class="item-category">Lighting</span>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-item animate-scale">
+                        <div class="item-image">
+                            <img src="../assets/images/product-3.jpg" alt="Lounge Coffee Table">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Lounge Coffee Table</h3>
+                            <p class="item-description">Luxurious marble coffee table perfect for modern living spaces.</p>
+                            <span class="item-category">Tables</span>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-item animate-scale">
+                        <div class="item-image">
+                            <img src="../assets/images/product-4.jpg" alt="Chicago Wall Lamp">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Chicago Wall Lamp</h3>
+                            <p class="item-description">Industrial-inspired wall lamp with modern sophistication.</p>
+                            <span class="item-category">Lighting</span>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-item animate-scale">
+                        <div class="item-image">
+                            <img src="../assets/images/product-5.jpg" alt="Bourbon Lamp">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Bourbon Lamp</h3>
+                            <p class="item-description">Elegant table lamp with warm ambient lighting capabilities.</p>
+                            <span class="item-category">Lighting</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections Categories -->
+        <section class="collections-categories">
+            <div class="container">
+                <div class="section-header animate-fade">
+                    <h2 class="section-title">Browse by Category</h2>
+                    <p class="section-description">Explore our diverse range of furniture and accessories</p>
+                </div>
+                
+                <div class="categories-grid">
+                    <div class="category-card animate-scale">
+                        <div class="category-image">
+                            <img src="../assets/images/hero-1.jpg" alt="Seating">
+                        </div>
+                        <div class="category-content">
+                            <h3 class="category-title">Seating</h3>
+                            <p class="category-count">12 pieces</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card animate-scale">
+                        <div class="category-image">
+                            <img src="../assets/images/hero-2.jpg" alt="Storage">
+                        </div>
+                        <div class="category-content">
+                            <h3 class="category-title">Storage</h3>
+                            <p class="category-count">8 pieces</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card animate-scale">
+                        <div class="category-image">
+                            <img src="../assets/images/product-3.jpg" alt="Tables">
+                        </div>
+                        <div class="category-content">
+                            <h3 class="category-title">Tables</h3>
+                            <p class="category-count">15 pieces</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card animate-scale">
+                        <div class="category-image">
+                            <img src="../assets/images/product-4.jpg" alt="Lighting">
+                        </div>
+                        <div class="category-content">
+                            <h3 class="category-title">Lighting</h3>
+                            <p class="category-count">10 pieces</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="gallery-cta">
+            <div class="container">
+                <div class="cta-content animate-fade">
+                    <h2 class="cta-title">Interested in a Custom Piece?</h2>
+                    <p class="cta-description">We create bespoke furniture tailored to your specific needs and space requirements.</p>
+                    <a href="services.html" class="cta-button">Explore Services</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer animate-fade">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>SEDAM Workshop</h3>
+                    <p>Designer furniture creator since 2006</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Collections</h4>
+                        <a href="gallery.html">All Collections</a>
+                        <a href="gallery.html">New Arrivals</a>
+                        <a href="gallery.html">Best Sellers</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Services</a>
+                        <a href="../index.html#contact_us">Contact</a>
+                    </div>
+                    
+                    <div class="link-group">
+                        <h4>Services</h4>
+                        <a href="services.html">Custom Design</a>
+                        <a href="services.html">Professional</a>
+                        <a href="services.html">Delivery</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SEDAM Workshop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
