@@ -1,8 +1,6 @@
-# Red Edition Website - User Guide
-
 ## 🎯 Overview
 
-This is a modern, clean recreation of the Red Edition furniture website. The original WordPress site has been converted to a lightweight, fast-loading website using only HTML, CSS, and JavaScript - no plugins or complex dependencies required.
+This is a modern, clean recreation of the Sedam Workshop website. The original WordPress site has been converted to a lightweight, fast-loading website using only HTML, CSS, and JavaScript - no plugins or complex dependencies required.
 
 ## 🌟 Features
 
@@ -111,8 +109,8 @@ Change the words inside `<span class="word">` tags.
 Find this section:
 ```html
 <blockquote class="about-quote animate-words">
-    <span class="word">Red</span>
-    <span class="word">Edition</span>
+    <span class="word">Sedam</span>
+    <span class="word">Workshop</span>
     <!-- Change words here -->
 </blockquote>
 ```
@@ -122,7 +120,7 @@ Find the contact section:
 ```html
 <div class="info-item">
     <h3>Contact</h3>
-    <p>hello@rededition.com<br>
+    <p>sedamworkshop@mail.com<br>
     +33 1 23 45 67 89</p>
 </div>
 ```
@@ -307,6 +305,6 @@ Always keep a backup copy of your customized website before making major changes
 
 ---
 
-**Enjoy your new Red Edition website!** 🎉
+**Enjoy your new Sedam Workshop website!** 🎉
 
 The website is now ready to use and fully customizable without any technical expertise required. All animations and interactions work smoothly across all devices.
