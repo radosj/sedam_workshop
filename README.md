@@ -1,4 +1,4 @@
-# Red Edition Website - User Guide
+
 
 ## 🎯 Overview
 
