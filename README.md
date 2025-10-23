@@ -2,75 +2,7 @@
 
 This is a modern, clean recreation of the Sedam Workshop website. The original WordPress site has been converted to a lightweight, fast-loading website using only HTML, CSS, and JavaScript - no plugins or complex dependencies required.
 
-## 🌟 Features
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Smooth Animations**: Professional scroll-triggered animations using GSAP
-- **Interactive Slideshow**: Auto-playing hero slideshow with manual navigation
-- **Product Gallery**: Touch-enabled product carousel with navigation
-- **Modern Navigation**: Sticky navigation with smooth scrolling
-- **Optimized Performance**: Fast loading times and smooth interactions
-- **English Content**: All content translated from French to English
-
-## 📁 Folder Structure
-
-```
-My_site1/
-├── index.html              # Main website file
-├── README.md               # This guide
-├── assets/
-│   ├── css/
-│   │   └── style.css       # All website styling
-│   ├── js/
-│   │   └── main.js         # Interactive functionality
-│   └── images/             # All website images
-│       ├── hero-1.jpg      # Main slideshow image 1
-│       ├── hero-2.jpg      # Main slideshow image 2
-│       ├── hero-3.jpg      # Main slideshow image 3
-│       ├── collections.jpg # Collections section image
-│       ├── showroom.jpg    # Showroom section image
-│       └── product-*.jpg   # Product gallery images
-└── pages/                  # Additional pages (for future expansion)
-```
-
-## 🚀 How to Launch the Website
-
-### Option 1: Simple File Opening (Basic)
-1. Navigate to the `My_site1` folder
-2. Double-click on `index.html`
-3. Your default web browser will open the website
-
-### Option 2: Local Web Server (Recommended)
-1. Open Terminal/Command Prompt
-2. Navigate to the `My_site1` folder:
-   ```bash
-   cd /path/to/My_site1
-   ```
-3. Start a local server:
-   ```bash
-   # If you have Python installed:
-   python3 -m http.server 8000
-   
-   # Or if you have Node.js:
-   npx serve .
-   ```
-4. Open your browser and go to: `http://localhost:8000`
-
-### Option 3: Live Server (VS Code)
-1. Install the "Live Server" extension in VS Code
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
-
-## 🎨 Customization Guide
-
-### Changing Images
-
-#### Hero Slideshow Images
-1. Replace images in `assets/images/`:
-   - `hero-1.jpg` - First slideshow image
-   - `hero-2.jpg` - Second slideshow image  
-   - `hero-3.jpg` - Third slideshow image
-2. **Important**: Keep the same filenames or update the HTML references
 
 #### Product Gallery Images
 1. Replace `product-1.jpg` through `product-5.jpg` in `assets/images/`
